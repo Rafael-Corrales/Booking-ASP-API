@@ -1,0 +1,20 @@
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.csprojAssemblyReference.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.AssemblyInfoInputs.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.AssemblyInfo.cs
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.exe
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.deps.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.runtimeconfig.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.runtimeconfig.dev.json
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.dll
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\bin\Debug\netcoreapp3.1\Booking ASP API.pdb
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.RazorTargetAssemblyInfo.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\staticwebassets\Booking ASP API.StaticWebAssets.Manifest.cache
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\staticwebassets\Booking ASP API.StaticWebAssets.xml
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.dll
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.pdb
+C:\Users\Rafael Corrales\Documents\Booking ASP API\Booking ASP API\obj\Debug\netcoreapp3.1\Booking ASP API.genruntimeconfig.cache
