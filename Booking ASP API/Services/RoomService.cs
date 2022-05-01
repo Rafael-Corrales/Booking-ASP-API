@@ -6,9 +6,11 @@ namespace Booking_ASP_API.Services
 {
      public class RoomService
     {
+        // Create variables to use them in the class
         static List<Room> Rooms { get; }
         static int nextId = 2;
 
+        // Create rooms to the model
         static RoomService()
         {
             Rooms = new List<Room>
@@ -19,24 +21,27 @@ namespace Booking_ASP_API.Services
             };
         }
              
+        // Get all the rooms
         public List<Room> AllRooms()
         {
             List<Room> AllTheRooms = Rooms;           
             return AllTheRooms;
         }
 
+        // Get room by IdRoom
         public Room RoomById(int id)
         {
             Room myRoom = Rooms.FirstOrDefault(s => s.idRoom == id);
             return myRoom;
         }
-
+        // Get active rooms
         public List<Room> ActiveRooms()
         {
             List<Room> AllTheRooms = Rooms.Where(s => s.roomStatus).ToList();
             return AllTheRooms;
         }
 
+        // Add a new room
         public void AddRoom(Room myRoom)
         {
             myRoom.idRoom = nextId + 1;
@@ -45,7 +50,7 @@ namespace Booking_ASP_API.Services
                 nextId = nextId + 1;
                 Rooms.Add(myRoom);
         }
-
+        // Update an specific room
         public void UpdateRoom(Room myRoom)
         {
             var index = Rooms.FindIndex(s => s.idRoom == myRoom.idRoom);
@@ -57,7 +62,7 @@ namespace Booking_ASP_API.Services
                 Rooms[index] = myRoom;
         }
 
-
+        // Delete an specific room
         public void DeleteRoom(Room myRoom)
         {
             var room = Rooms.FirstOrDefault(s => s.idRoom == myRoom.idRoom);

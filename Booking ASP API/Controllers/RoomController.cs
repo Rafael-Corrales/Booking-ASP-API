@@ -10,7 +10,7 @@ namespace Booking_ASP_API.Controllers
     [Route("[controller]")]
     public class RoomController : ControllerBase
     {
-
+        // Create an RoomService instance to use their methods and properties
         RoomService roomService;
         public RoomController()
         {
@@ -50,6 +50,7 @@ namespace Booking_ASP_API.Controllers
             return Ok(myRoom);
         }
 
+        // GET actives rooms action
         [HttpGet("[action]")]
         public IActionResult GetActives()
         {
@@ -68,7 +69,7 @@ namespace Booking_ASP_API.Controllers
 
 
 
-        // GET by Id action
+        // POST Insert action
         [HttpPost("[action]")]
         public IActionResult Insert(Room myRoom)
         {
@@ -84,7 +85,7 @@ namespace Booking_ASP_API.Controllers
         }
 
 
-        // GET by Id action
+        // PUT Update action
         [HttpPut("[action]")]
         public IActionResult Update(Room myRoom)
         {
@@ -99,6 +100,7 @@ namespace Booking_ASP_API.Controllers
             return Ok(myRoom);
         }
 
+        // Delete action
         [HttpDelete("[action]")]
         public IActionResult Delete(Room myRoom)
         {

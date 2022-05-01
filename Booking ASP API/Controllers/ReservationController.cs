@@ -10,7 +10,7 @@ namespace Booking_ASP_API.Controllers
     [Route("[controller]")]
     public class ReservationController : ControllerBase
     {
-
+        // Create an ReservationService instance to use their methods and properties
         ReservationService reservationService;
         public ReservationController()
         {
@@ -35,7 +35,7 @@ namespace Booking_ASP_API.Controllers
         }
 
 
-        // GET all action
+        // GET reservations between dates action
         [HttpGet("[action]/{startDate}/{endDate}/")]
         public IActionResult GetReservationsBetwwenDates(DateTime startDate, DateTime endDate)
         {
@@ -52,7 +52,7 @@ namespace Booking_ASP_API.Controllers
             return Ok(AllReservations);
         }
 
-
+        // GET reservations between dates without an specific reservation action 
         [HttpGet("[action]/{startDate}/{endDate}/{idReservation}")]
         public IActionResult GetReservationsBetwwenDatesWithReservation(DateTime startDate, DateTime endDate, int idReservation)
         {
@@ -86,7 +86,7 @@ namespace Booking_ASP_API.Controllers
         }
 
 
-        // GET by Id action
+        // POST Inser action
         [HttpPost("[action]")]
         public IActionResult Insert(Reservation myReservation)
         {
@@ -101,7 +101,7 @@ namespace Booking_ASP_API.Controllers
             return Ok(myReservation);
         }
 
-        // GET by Id action
+        // PUT Update action
         [HttpPut("[action]")]
         public IActionResult Update(Reservation myReservation)
         {
@@ -116,6 +116,7 @@ namespace Booking_ASP_API.Controllers
             return Ok(myReservation);
         }
 
+        // Delete action
         [HttpDelete("[action]")]
         public IActionResult Delete(Reservation myReservation)
         {

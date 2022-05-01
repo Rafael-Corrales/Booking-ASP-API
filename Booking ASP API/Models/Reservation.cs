@@ -5,6 +5,8 @@ using System.Web;
 
 namespace Booking_ASP_API.Models
 {
+
+    // Reservation Model
     public class Reservation
     {
         public int idReservation { get; set; }

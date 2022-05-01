@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Booking_ASP_API.Models
 {
+    // Room Model
     public class Room
     {
         public int idRoom { get; set; }
